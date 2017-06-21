@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaaaaa"
+        android:text="A"
+        android:textSize="30sp"
+        android:gravity="center_vertical"
+        android:paddingLeft="14dp"
+        android:id="@+id/tv_item_word"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="王志永"
+        android:textSize="30sp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:id="@+id/tv_item_name"
+        />
+
+
+</LinearLayout>
